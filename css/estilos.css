@@ -1,0 +1,41 @@
+
+
+
+#contenedor{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.foto1{
+  width: 30%
+}
+.foto2{
+  width: 30%
+}
+.foto3{
+  width: 30%
+}
+.foto3{
+  width: 30%
+}
+.foto4{
+  width: 30%
+}
+.foto5{
+  width: 30%
+}
+.foto6{
+  width: 30%
+}
+.foto7{
+  width: 30%
+}
+.foto8{
+  width: 30%
+}
+
+.foto9{
+  width: 30%
+}
