@@ -24,17 +24,17 @@ header .menu{
      }
  [class^="contenedor"] {
        width: 30%;
-       min-height: 200px;
+       min-height: 150px;
        padding: 0.5vw;
        border: 1px solid black;
-       margin: 0.4vw;
+       margin: 0.5vw;
        background: rgb(164, 96, 6);
     }
   [class^="foto"] {
       margin: 0 auto;
       width: 50%;
       padding: 0.5vw;
-      min-width: 100px;
+      min-width: 250px;
       border: 10px solid black;
       text-align: center;
       background: rgb(217, 194, 151);
@@ -52,5 +52,5 @@ header .menu{
     }
 
     [class^="foto"] img{
-      width: 90%;
+      width: 100%;
     }
