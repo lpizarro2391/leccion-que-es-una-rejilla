@@ -15,7 +15,6 @@ header .menu{
   color: rgb(162, 112, 0);
   }
 
-
 .principal{
     display: flex;
     flex-flow: row wrap;
@@ -31,7 +30,7 @@ header .menu{
        margin: 0.4vw;
        background: rgb(164, 96, 6);
     }
-    [class^="foto"] {
+  [class^="foto"] {
       margin: 0 auto;
       width: 50%;
       padding: 0.5vw;
@@ -39,4 +38,19 @@ header .menu{
       border: 10px solid black;
       text-align: center;
       background: rgb(217, 194, 151);
+    }
+    .contenedor1, .foto1{
+      box-sizing: border-box;
+    }
+
+    .contenedor2, .foto2{
+      box-sizing: content-box;
+    }
+
+    .contenedor3, .foto3{
+      box-sizing: padding-box;
+    }
+
+    [class^="foto"] img{
+      width: 90%;
     }
